@@ -323,9 +323,11 @@ p {
 	z-index: -1;
 }
 #skills .skill-bottom .icon {
-	/* height: 100px; */
-	width: 255px;
+	height: 250px;
+	width: 250px;
 	margin-bottom: 20px;
+	
+	
 	
 }
 
@@ -394,6 +396,7 @@ p {
 	margin-top: 10px;
 	color: white;
 	font-size: medium;
+	text-decoration: none;
 }
 #projects .project-info a::after{
 	content: '';
@@ -411,6 +414,7 @@ p {
 	width: 100%;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: 0.7;
+	text-decoration: none;
 }
 #projects .project-info a{
 
@@ -419,6 +423,7 @@ p {
 #projects .project-info a:hover{
 	transform: scale(1.1);
 	color: yellow;
+	
 }
 #projects .project-info p {
 	color: white;
@@ -528,6 +533,33 @@ p {
 	width: 70px;
 	margin: 0 auto;
 	margin-bottom: 10px;
+}
+.contact-info h2 a{
+	text-decoration: none;
+	color: black;
+	transition: 0.5s ease transform;
+}
+.contact-info h2 a::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.7;content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.7;
+	text-decoration: none;
+}
+.contact-info h2 a:hover{
+	transform: scale(1.5);
+	color: blue;
 }
 #contact .contact-info h1 {
 	font-size: 2.5rem;
